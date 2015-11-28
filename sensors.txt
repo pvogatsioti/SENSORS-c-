@@ -1,0 +1,20 @@
+This is a program that simulates what is written below.                            
+                                                                                   
+In a forest area which is a rectangular with coordinates from (0,0) to (1600,1600) 
+10 fire sensors are placed randomly. Every sensor has some characterestics. These  
+are the coordinates of the area in which is placed, the polution percentage in the 
+area and the limit above of the polution becomes dangerous.                        
+                                                                                   
+Every 5 minutes each sensor measures the polution in the area which is placed. If  
+it is above the limit, it sends the data to a central system which prints in the   
+screen the coordinates, the percentage of the poluted areas and the average        
+polution in that area.
+
+There are two types of sensors. NOK sensors and ERIC sensors. There is a 0.1% possibility 
+of mistake in every measurement of NOK sensors.
+ERIC sensors have some additional characteristics. They also measure every ten minutes the 
+humidity percentage in the ara they are placed. If it is lower than the limit there is a 
+fire danger so they send the information to the fire department.
+
+The fire department has a unit of 8 people that go to the area with the lower percentage of 
+humidity.                                           
